@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thiago Dutra</title>
+<meta name="description" content="Thiago Dutra, analista administrativo. Compras, faturamento, indicadores e, nas horas vagas, programação e IA.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Thiago Dutra</h1>
+  <nav class="lang-switch">
+    <a href="en.html" hreflang="en" lang="en">English</a> ·
+    <a href="es.html" hreflang="es" lang="es">Español</a>
+  </nav>
+</header>
+
+<main>
+  <p>
+    Sou analista administrativo. Trabalho há mais de dez anos com compras,
+    notas fiscais, estoque e planilhas, quase sempre no agronegócio.
+  </p>
+
+  <p>
+    Comecei no almoxarifado da
+    <a href="https://campofert.com.br/">Campofert</a>, recebendo materiais e fazendo
+    inventários. Depois fui para a área de compras da
+    <a href="https://www.instagram.com/bbm.manutencoes/">BBM Manutenções</a>,
+    negociando preços e prazos com fornecedores. Na
+    <a href="https://deltasucroenergia.com.br/">Delta Sucroenergia</a>, no
+    CIA/COA, passei a acompanhar a logística da frota canavieira e os
+    indicadores de preparo do solo, plantio, cultivo, irrigação e colheita
+    mecanizada. Mais recentemente, na
+    <a href="https://ourosafra.com/">Ouro Safra</a>, cuidei do faturamento de
+    contratos de venda de grãos, das compras de materiais de uso e consumo e
+    do apoio às áreas de manutenção, RH, facilities e segurança do trabalho.
+  </p>
+
+  <p>
+    Ao longo desses anos, trabalhei com SAP, PIMS da TOTVS, Comlink,
+    Dynamics AX, Excel e SGPA da Solinftec.
+  </p>
+
+  <p>
+    Fora do expediente, sou programador por hobby. Sempre gostei da área e
+    mexo com TypeScript e Python. Há alguns anos também acompanho a evolução
+    da inteligência artificial e o uso responsável dessa tecnologia no dia a
+    dia.
+  </p>
+
+  <p>
+    Se quiser falar comigo, responda esse pequeno
+    <a href="https://pt.wikipedia.org/wiki/Teste_de_Turing">teste de Turing</a>:
+  </p>
+
+  <form id="turing" onsubmit="return false">
+    <p class="question">
+      Você é humano?
+      <label><input type="radio" name="human" value="yes">Sim</label>
+      <label><input type="radio" name="human" value="no">Não</label>
+    </p>
+
+    <p class="question" id="recruiter-question" hidden>
+      Você é recrutador?
+      <label><input type="radio" name="recruiter" value="yes">Sim</label>
+      <label><input type="radio" name="recruiter" value="no">Não</label>
+    </p>
+  </form>
+
+  <p class="message" id="recruiter-message" hidden>
+    Que bom que passou por aqui. Estou procurando vaga nas áreas
+    administrativa, de compras, faturamento, manutenção ou controles
+    operacionais, de preferência no agro, no setor sucroenergético ou na
+    indústria. Se tiver algo nessa linha, me chame no LinkedIn que eu
+    respondo.
+  </p>
+
+  <table class="contacts" id="contacts" hidden>
+    <tr>
+      <th scope="row">linkedin</th>
+      <td><a href="https://www.linkedin.com/in/thiagorsdutra">Thiago Dutra</a></td>
+    </tr>
+  </table>
+
+  <noscript>
+    <p>
+      O teste precisa de JavaScript, mas tudo bem, eu confio em você:
+      <a href="https://www.linkedin.com/in/thiagorsdutra">Thiago Dutra no LinkedIn</a>
+    </p>
+  </noscript>
+</main>
+
+<script src="turing.js"></script>
+
+</body>
+</html>

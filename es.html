@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thiago Dutra</title>
+<meta name="description" content="Thiago Dutra, analista administrativo. Compras, facturación, indicadores y, en mis ratos libres, programación e IA.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Thiago Dutra</h1>
+  <nav class="lang-switch">
+    <a href="index.html" hreflang="pt-BR" lang="pt-BR">Português</a> ·
+    <a href="en.html" hreflang="en" lang="en">English</a>
+  </nav>
+</header>
+
+<main>
+  <p>
+    Soy analista administrativo. Llevo más de diez años trabajando en compras,
+    facturación, inventarios y hojas de cálculo, casi siempre en el
+    agronegocio.
+  </p>
+
+  <p>
+    Empecé en el almacén de
+    <a href="https://campofert.com.br/">Campofert</a>, recibiendo materiales y
+    haciendo inventarios. Después pasé al área de compras de
+    <a href="https://www.instagram.com/bbm.manutencoes/">BBM Manutenções</a>,
+    negociando precios y plazos con proveedores. En
+    <a href="https://deltasucroenergia.com.br/">Delta Sucroenergia</a>, un
+    ingenio de azúcar y etanol, trabajé en el centro de operaciones agrícolas
+    (CIA/COA), donde seguía la logística de la flota cañera y los indicadores
+    de preparación de suelo, siembra, cultivo, riego y cosecha mecanizada. Más
+    recientemente, en <a href="https://ourosafra.com/">Ouro Safra</a>, estuve a
+    cargo de la facturación de contratos de venta de granos, de la compra de
+    materiales de uso y consumo, y del apoyo a las áreas de mantenimiento,
+    recursos humanos, servicios generales y seguridad laboral.
+  </p>
+
+  <p>
+    A lo largo de estos años he trabajado con SAP, PIMS de TOTVS, Comlink,
+    Dynamics AX, Excel y SGPA de Solinftec.
+  </p>
+
+  <p>
+    Fuera del trabajo, programo por gusto. Siempre me ha gustado y hoy uso
+    sobre todo TypeScript y Python. Desde hace algunos años también sigo de
+    cerca la evolución de la inteligencia artificial y cómo usarla de forma
+    responsable en el día a día.
+  </p>
+
+  <p>
+    Si quieres hablar conmigo, responde esta breve
+    <a href="https://es.wikipedia.org/wiki/Prueba_de_Turing">prueba de Turing</a>:
+  </p>
+
+  <form id="turing" onsubmit="return false">
+    <p class="question">
+      ¿Eres humano?
+      <label><input type="radio" name="human" value="yes">Sí</label>
+      <label><input type="radio" name="human" value="no">No</label>
+    </p>
+
+    <p class="question" id="recruiter-question" hidden>
+      ¿Eres reclutador?
+      <label><input type="radio" name="recruiter" value="yes">Sí</label>
+      <label><input type="radio" name="recruiter" value="no">No</label>
+    </p>
+  </form>
+
+  <p class="message" id="recruiter-message" hidden>
+    Qué bueno que pasaste por aquí. Estoy buscando trabajo en las áreas
+    administrativa, de compras, facturación, mantenimiento o control
+    operativo, de preferencia en el agro, en el sector azucarero y de etanol
+    o en la industria. Si tienes algo en esa línea, escríbeme por LinkedIn y
+    te respondo.
+  </p>
+
+  <table class="contacts" id="contacts" hidden>
+    <tr>
+      <th scope="row">linkedin</th>
+      <td><a href="https://www.linkedin.com/in/thiagorsdutra">Thiago Dutra</a></td>
+    </tr>
+  </table>
+
+  <noscript>
+    <p>
+      La prueba necesita JavaScript, pero no pasa nada, confío en ti:
+      <a href="https://www.linkedin.com/in/thiagorsdutra">Thiago Dutra en LinkedIn</a>
+    </p>
+  </noscript>
+</main>
+
+<script src="turing.js"></script>
+
+</body>
+</html>
