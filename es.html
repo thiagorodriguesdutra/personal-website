@@ -2,9 +2,11 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src data:; base-uri 'none'; form-action 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Thiago Dutra</title>
 <meta name="description" content="Thiago Dutra, analista administrativo. Compras, facturación, indicadores y, en mis ratos libres, programación e IA.">
+<link rel="icon" href="data:,">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -57,7 +59,7 @@
     <a href="https://es.wikipedia.org/wiki/Prueba_de_Turing">prueba de Turing</a>:
   </p>
 
-  <form id="turing" onsubmit="return false">
+  <form id="turing">
     <p class="question">
       ¿Eres humano?
       <label><input type="radio" name="human" value="yes">Sí</label>
